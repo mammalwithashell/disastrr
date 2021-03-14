@@ -33,35 +33,6 @@
           ]
         }
       }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:735552425623:android:a1bd6dd98057ed3e6123d2",
-        "android_client_info": {
-          "package_name": "com.hackthon.disastrr"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "735552425623-pok8pi2qjd7d53m6evs52cgqbmpl3683.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAhu8gS0HcKjMaV1-I6j1I2o4YdNCijnZ8"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "735552425623-pok8pi2qjd7d53m6evs52cgqbmpl3683.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
     }
   ],
   "configuration_version": "1"

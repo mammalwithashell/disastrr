@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'events.dart';
 
-// import 'package:location/location.dart';
+//unused packages
+// import 'package:firebase_auth/firebase_auth.dart';
+// import 'package:firebase_core/firebase_core.dart';
+// import 'package:cloud_firestore/cloud_firestore.dart';
+
+import 'package:geolocator/geolocator.dart';
+import 'package:weather/weather.dart';
 
 void main() => runApp(TopLevelWidget());
 
@@ -37,10 +41,7 @@ class TopLevelWidget extends StatelessWidget {
         ),
     "events": () => MaterialPageRoute(
           builder: (context) => Center(
-            child: Text(
-              "Events",
-              style: Theme.of(context).textTheme.bodyText1,
-            ),
+            child: Event(),
           ),
         ),
     "info": () => MaterialPageRoute(
